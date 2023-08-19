@@ -1,0 +1,40 @@
+________________________________________________________
+Deployment procedure for the Centre d'iInformations (CI)
+________________________________________________________
+version: 2014.05.30 - J.Le Fur lefur@ird.fr
+________________________________________________________
+
+
+
+The whole set of needed files lies within the "20140530-DeploiementCI.jlf" directory in the Apache root directory.
+
+
+
+
+The project needs installation and configuration (UTF-8) of :
+
+- Apache-Tomcat (v.7 minimum)
+
+- jdk7 (minimum)
+
+- mySQL and PHPmyAdmin
+
+
+
+The 2.1 version of CI contains two case applications
+
+	1/ bandia_21
+	2/ masto_21
+
+
+Static webSites and java application
+====================================
+The whole directory bandia_21 has to be copied in the webapps directory
+The whole directory masto_21  has to be copied in the webapps directory
+
+databases
+=========
+bandia2_1.sql has to be declared to the sql manager (e.g., using PHPmyAdmin) 
+ masto2_9.sql has to be declared to the sql manager (e.g., using PHPmyAdmin)
+
+NOTE: the configuration file "parameters.xml" is already modified accordingly

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This source code is licensed under a BSD licence as detailed in file  SIMmasto_0.license.txt -->
+<!DOCTYPE Parameters SYSTEM "parameters.dtd">
+<!--This file declares the 4 parameters of the Centre d'Informations (CI) for  the current webapp -->
+<!-- see parametres.dtd for the list of parameters -->
+<Parameters>
+	<!-- -->
+	<!--PATH TO THE SQL DATA SOURCE USED BY THE CI -->
+	<!-- -->
+	<!--Standalone version: use this instruction to connect using localhost:8080 -->
+	<BD>jdbc:mysql://127.0.0.1:3306/css5</BD>
+	<!-- -->
+	<!-- Internet version: use this instruction to connect using www -->
+	<!-- <BD>jdbc:mysql://vminfotron-dev.mpl.ird.fr:3306/masto2</BD> -->
+
+	<!-- -->
+	<!--JDBC DRIVER OF THE DATABASE USED BY THE CI -->
+	<!-- -->
+	<PiloteJDBC>com.mysql.jdbc.Driver</PiloteJDBC>
+
+
+	<!-- -->
+	<!--LOGIN AND PASSWORD TO ACCESS THE DATABASE -->
+	<!-- -->
+	<!-- standalone version -->
+	<User>root</User>
+	<Passwd>null</Passwd>
+	<!-- "null" chain if no password -->
+	<!-- -->
+	<!-- Internet version -->
+	<!-- <User>devinfotron</User> -->
+	<!-- <Passwd>ZJ3tgG</Passwd> -->
+</Parameters>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+	id="WebApp_ID" version="3.0">
+	<display-name>ci2.0</display-name>
+	<description>Cette application web sous Tomcat est un centre
+		d'information. </description>
+	<servlet>
+		<servlet-name>descriptorInstances</servlet-name>
+		<servlet-class>presentation.C_ServletDescriptorInstances
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>descriptorInstances</servlet-name>
+		<url-pattern>/descriptorInstances</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>informationList</servlet-name>
+		<servlet-class>presentation.C_ServletInformationList</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>informationList</servlet-name>
+		<url-pattern>/informationList</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>information</servlet-name>
+		<servlet-class>presentation.C_ServletInformation</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>information</servlet-name>
+		<url-pattern>/information</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>metaDescriptorInstances</servlet-name>
+		<servlet-class>presentation.C_ServletMetaDescriptorInstances
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>metaDescriptorInstances</servlet-name>
+		<url-pattern>/metaDescriptorInstances</url-pattern>
+	</servlet-mapping>
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+		<welcome-file>index.htm</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>default.html</welcome-file>
+		<welcome-file>default.htm</welcome-file>
+		<welcome-file>default.jsp</welcome-file>
+	</welcome-file-list>
+</web-app>

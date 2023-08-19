@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XML Spy v3.5 (http://www.xmlspy.com) by  () -->
+<!ELEMENT Parameters (BD, PiloteJDBC,User,Passwd)>
+<!ELEMENT BD (#PCDATA)>
+<!ELEMENT PiloteJDBC (#PCDATA)>
+<!ELEMENT User (#PCDATA)>
+<!ELEMENT Passwd (#PCDATA)>
